@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloud Security Dashboard</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eef2f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #123456;
+        }
+
+        .dashboard {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 200px;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 3px 10px #cccccc;
+        }
+
+        .number {
+            font-size: 35px;
+            font-weight: bold;
+        }
+
+        .high {
+            color: red;
+        }
+
+        .medium {
+            color: orange;
+        }
+
+        .low {
+            color: green;
+        }
+
+        .details {
+            background: white;
+            margin: 30px auto;
+            padding: 20px;
+            max-width: 900px;
+            border-radius: 12px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background: #123456;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Cloud Security Dashboard</h1>
+    <p style="text-align:center;">
+        Multi-Cloud Threat Monitoring System
+    </p>
+
+    <div class="dashboard">
+
+        <div class="card">
+            <h3>Total Logins</h3>
+            <div class="number">3</div>
+        </div>
+
+        <div class="card">
+            <h3>High Risk</h3>
+            <div class="number high">1</div>
+        </div>
+
+        <div class="card">
+            <h3>Medium Risk</h3>
+            <div class="number medium">0</div>
+        </div>
+
+        <div class="card">
+            <h3>Low Risk</h3>
+            <div class="number low">2</div>
+        </div>
+
+    </div>
+
+    <div class="details">
+
+        <h2>Login Security Details</h2>
+
+        <table>
+            <tr>
+                <th>Cloud</th>
+                <th>User</th>
+                <th>Risk Score</th>
+                <th>Risk Level</th>
+            </tr>
+
+            <tr>
+                <td>AWS</td>
+                <td>Ravi</td>
+                <td>0</td>
+                <td class="low">LOW</td>
+            </tr>
+
+            <tr>
+                <td>Azure</td>
+                <td>Sita</td>
+                <td>100</td>
+                <td class="high">HIGH</td>
+            </tr>
+
+            <tr>
+                <td>GCP</td>
+                <td>Krishna</td>
+                <td>0</td>
+                <td class="low">LOW</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</body>
+</html>
