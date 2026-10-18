@@ -27,3 +27,6 @@ The system checks login location, login time, and failed login attempts to calcu
 This project demonstrates basic cloud security and suspicious login detection using Python.
 
 **Note:** This prototype uses sample data and is not connected to live cloud accounts.
+## Live Project
+
+[Open Cloud Security Dashboard](https://yamini4511.github.io/Cloud-Security-Threat-Detection-System/cloud_dashboard.html)
